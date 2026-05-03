@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer base {
+}
+
+@theme {
+    --color-secondary: #fdb44b;
+    --color-primary: #005792;
+    --color-primary-light: #00bbf0;
+    --color-primary-dark: #00204a;
+
+}
