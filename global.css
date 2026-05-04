@@ -1,7 +1,6 @@
 @import "tailwindcss";
-
-@layer base {
-}
+@import "tailwindcss/preflight";
+@tailwind utilities;
 
 @theme {
     --color-secondary: #fdb44b;

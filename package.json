@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build:styles": "tailwindcss -i ./gloval.css -o ./docs/assets/output.css --minify --watch"
+    "build:styles": "tailwindcss -i ./global.css -o ./docs/assets/output.css --minify --watch"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.2.4",
