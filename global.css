@@ -7,3 +7,14 @@
     --color-primary-dark: #00204a;
 
 }
+
+@layer components {
+    .abilities-container { @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-8 max-w-6xl mx-auto; }
+    .about-me-box { @apply sm:col-span-2 sm:p-4 md:col-span-1 md:row-span-2 flex flex-col justify-center items-center text-center; }
+    .ability-box { @apply bg-primary-dark/50 p-6 rounded-lg flex flex-col items-center text-center border-b-3 border-secondary; }
+    .about-me-title { @apply text-3xl font-bold text-white mb-4 border-b-3 border-secondary; }
+    .about-me-description { @apply text-white/80 text-lg text-balance; }
+    .ability-title { @apply text-xl font-semibold text-white mb-2; }
+    .ability-description { @apply text-white/70 text-sm text-balance; }
+    .ability-icon { @apply size-16 mb-3 text-white border-secondary border-2 p-3; }
+}
