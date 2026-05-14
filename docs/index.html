@@ -28,14 +28,14 @@
         <section class="min-h-100 flex justify-center items-center sm:flex-row flex-col-reverse sm:gap-4">
             <div>
                 <div class="flex items-center justify-center">
-                    <h1 class="text-4xl text-center text-white font-bold sm:pt-10 border-b-3 border-secondary">
+                    <h1 class="title-h1">
                         Manuel A. Pedraza S.
                     </h1>
                 </div>
 
                 <section class="mt-2 flex items-center justify-center gap-2">
-                
-                    <div class="flex items-center justify-center gap-2 mt-1 border-2 p-2 rounded-full border-secondary text-white">
+
+                    <div class="contact-info-container">
                         <div class="flex items-center justify-center">
                             <svg class="size-8 sm:size-12 text-secondary" fill="currentColor">
                                 <use xlink:href="./assets/sprites.svg#mail" />
@@ -43,8 +43,8 @@
                         </div>
                         <p class="font-bold ">test@test.com</p>
                     </div>
-                
-                    <div class="flex items-center justify-center gap-2 mt-1 border-2 p-2 rounded-full border-secondary text-white">
+
+                    <div class="contact-info-container">
                         <div class="flex items-center justify-center">
                             <svg class="size-8 sm:size-12 text-secondary" fill="currentColor">
                                 <use xlink:href="./assets/sprites.svg#phone" />
@@ -52,25 +52,25 @@
                         </div>
                         <p class="font-bold ">+67 123-456-7890</p>
                     </div>
-                
+
                 </section>
-                
+
                 <p class="text-center text-white text-lg p-2 text-balance inline-block">
-                    Full Stack Developer <b class="text-secondary">|</b> 
-                    Front-end <b class="text-secondary">|</b> 
-                    Back-end <b class="text-secondary">|</b> 
+                    Full Stack Developer <b class="text-secondary">|</b>
+                    Front-end <b class="text-secondary">|</b>
+                    Back-end <b class="text-secondary">|</b>
                     Desktop App Developer
                 </p>
 
                 <div class="pt-2 flex justify-center items-center gap-4 ">
                     <a href="https://github.com/manuel-pedraza" target="_blank"
-                        class="bg-black p-2 size-12 flex justify-center items-center rounded-full hover:scale-110 transition-transform">
+                        class="icon-social hover:scale-110">
                         <svg width="28" height="28">
                             <use xlink:href="./assets/sprites.svg#github" />
                         </svg>
                     </a>
                     <a href="https://www.linkedin.com/in/manuel-a-pedraza-s/" target="_blank"
-                        class="bg-white p-2 size-12 flex justify-center items-center rounded-full hover:scale-110 transition-transform">
+                        class="icon-social hover:scale-110">
                         <svg width="28" height="28">
                             <use xlink:href="./assets/sprites.svg#linkedin" />
                         </svg>
@@ -133,31 +133,25 @@
             </div>
         </section>
 
-        <!-- <div class="flex items-center justify-center">
-            <h1 class="text-4xl text-center text-white font-bold sm:pt-10 border-b-3 border-secondary">
-                My Projects
-            </h1>
-        </div> -->
-
         <section>
             <div class="flex items-center justify-center">
-                <h1 class="text-4xl text-center text-white font-bold sm:pt-10 border-b-3 border-secondary">
+                <h1 class="title-h1">
                     Web Projects
                 </h1>
             </div>
 
             <div class="grid grid-cols-3 grid-rows-2 gap-4 w-full p-4">
-                <a href="/Minesweeper" class="sm:col-span-1 col-span-3 max-h-[25dvh] h-[25dvh] relative rounded-3xl overflow-hidden 
-                    bg-linear-to-br from-red-900 via-red-700 to-red-500
-                    hover:scale-102 hover-contrast-125 transition group
+                <a href="/Minesweeper" class="
+                    project-link-container from-red-900 via-red-700 to-red-500 group 
+                    hover:scale-102 hover-contrast-125
                     ">
-                    <span class="absolute text-2xl text-center text-black font-bold sm:pt-10 bottom-2 left-2">
+                    <span class="project-link-title">
                         Minesweeper
                     </span>
-                    <img class="absolute h-full -right-20 mask-tl-from-50% mask-l-to-90% 
-                        ease-out duration-300 transition-transform group-hover:-translate-x-20 
-                        group-hover:mask-tl-from-30%" src="./assets/img/projects/Minesweeper.png" alt="minesweeper" />
-                    <span class="absolute top-2 left-2 border rounded-xl px-2 py-1 flex gap-1">
+                    <img class="project-link-image mask-tl-from-50% mask-l-to-90%  
+                        group-hover:-translate-x-20 group-hover:mask-tl-from-30%"
+                        src="./assets/img/projects/Minesweeper.png" alt="minesweeper" />
+                    <span class="project-link-techs">
                         <svg class="size-5" fill="currentColor">
                             <use xlink:href="./assets/sprites.svg#html" />
                         </svg>
@@ -170,18 +164,17 @@
                     </span>
                 </a>
 
-                <a href="https://manuel-pedraza.dev" class="sm:col-span-2 col-span-3 max-h-[25dvh] h-[25dvh] relative rounded-3xl overflow-hidden 
-                                    bg-linear-to-br from-green-900 via-green-700 to-green-500
-                                    hover:scale-102 hover-contrast-125 transition group
-                                    ">
-                    <span class="absolute text-2xl text-center text-black font-bold sm:pt-10 bottom-2 left-2">
+                <a href="https://manuel-pedraza.dev" class="
+                        project-link-container from-green-900 via-green-700 to-green-500 group
+                        hover:scale-102 hover-contrast-125
+                    ">
+                    <span class="project-link-title">
                         Portfolio
                     </span>
-                    <img class="absolute h-full -right-20 mask-l-from-50% mask-l-to-90% 
-                                        ease-out duration-300 transition-transform group-hover:-translate-x-20 
-                                        group-hover:mask-l-from-30%" src="./assets/img/projects/Portfolio.png"
-                        alt="portfolio" />
-                    <span class="absolute top-2 left-2 border rounded-xl px-2 py-1 flex gap-1">
+                    <img class="project-link-image mask-l-from-50% mask-l-to-90% 
+                        group-hover:-translate-x-20 group-hover:mask-l-from-30%"
+                        src="./assets/img/projects/Portfolio.png" alt="portfolio" />
+                    <span class="project-link-techs">
                         <svg class="size-5" fill="currentColor">
                             <use xlink:href="./assets/sprites.svg#html" />
                         </svg>
@@ -200,18 +193,17 @@
                     </span>
                 </a>
 
-                <a href="https://dragon-loot.manuel-pedraza.dev" class="sm:col-span-2 col-span-3 max-h-[25dvh] h-[25dvh] relative rounded-3xl overflow-hidden 
-                                                    bg-linear-to-br from-yellow-900 via-yellow-700 to-yellow-500
-                                                    hover:scale-102 hover-contrast-125 transition group
-                                                    ">
-                    <span class="absolute text-2xl text-center text-black font-bold sm:pt-10 bottom-2 left-2">
+                <a href="https://dragon-loot.manuel-pedraza.dev" class="
+                    project-link-container group from-yellow-900 via-yellow-700 to-yellow-500
+                    hover:scale-102 hover-contrast-125
+                    ">
+                    <span class="project-link-title">
                         Dragon Loot
                     </span>
-                    <img class="absolute h-full -right-20 mask-l-from-50% mask-l-to-90% 
-                                                        ease-out duration-300 transition-transform group-hover:-translate-x-20 
-                                                        group-hover:mask-l-from-30%"
+                    <img class="project-link-image mask-l-from-50% mask-l-to-90% 
+                        group-hover:-translate-x-20 group-hover:mask-l-from-30%"
                         src="./assets/img/projects/DragonLoot.png" alt="portfolio" />
-                    <span class="absolute top-2 left-2 border rounded-xl px-2 py-1 flex gap-1">
+                    <span class="project-link-techs">
                         <svg class="size-5" fill="currentColor">
                             <use xlink:href="./assets/sprites.svg#html" />
                         </svg>
@@ -239,7 +231,7 @@
 
         <!-- <section class="flex items-center justify-center">
             <div>
-                <h1 class="text-4xl text-center text-white font-bold sm:pt-10 border-b-3 border-secondary">
+                <h1 class="title-h1">
                     Contact Me
                 </h1>
                 <div class="flex items-center gap-2 mt-1">
